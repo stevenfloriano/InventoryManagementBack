@@ -1,0 +1,113 @@
+## =========================
+## Visual Studio / .NET 8
+## InventoryManagement.gitignore
+## =========================
+
+# Archivos de usuario y configuración local
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Archivos de publicación y paquetes
+*.Publish.xml
+*.pubxml
+*.publishproj
+publish/
+app.publish/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Archivos generados por Entity Framework
+Migrations/
+
+# Dependencias de Node (para proyectos con frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Archivos de configuración secretos
+appsettings.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Secret.json
+
+# Archivos de respaldo o temporales
+*.bak
+*.tmp
+*.temp
+*.log
+*.tlog
+*.vspscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp_proj
+*.cache
+*.msscci
+*.dbmdl
+*.dbproj.schemaview
+*.sqlproj.schemaview
+
+# Directorios temporales
+TestResults/
+[Aa]rtifacts/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]nyCPU/
+BenchmarkDotNet.Artifacts/
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+.nuget/
+packages/
+# Permitir el archivo de configuración de NuGet
+!packages/build/
+!packages/repositories.config
+
+# Archivos de cobertura y análisis
+*.coverage
+*.coveragexml
+*.codecoverage
+*.testresult.xml
+*.trx
+*.dotCover
+.coverage/
+coverage-report/
+coverage/
+
+# Archivos de Docker
+docker-compose.override.yml
+.docker/
+Dockerfile.*
+**/Do**
